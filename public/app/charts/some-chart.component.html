@@ -1,0 +1,18 @@
+<portlet>
+    <div portlet-header>
+        <select>
+            <option>Whats up</option>
+            <option>Nothing up</option>
+        </select>
+    </div>
+    <div portlet-body>
+        <code>            
+                export class AdBannerComponent implements AfterViewInit, OnDestroy
+                @Input() ads: AdItem[];
+                currentAddIndex: number = -1;
+                @ViewChild(AdDirective) adHost: AdDirective;
+                subscription: any;
+                interval: any;            
+        </code>
+    </div>
+</portlet>

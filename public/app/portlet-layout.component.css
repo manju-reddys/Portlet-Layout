@@ -1,0 +1,34 @@
+.portlet-layout {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    padding: 10px;
+    margin: auto;
+}
+
+.portlet-layout .layout-header {
+    flex: none;
+}
+
+.portlet-layout .layout-body {
+    flex: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.portlet-container {
+    overflow: auto;
+}
+
+.pl-row>.col-12 {
+    border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.hing {
+    position: absolute;
+    left: 15px;
+    margin-top: 5px;
+    z-index: 3000;
+}

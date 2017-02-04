@@ -1,0 +1,7 @@
+<div class="list-group flex-md-column flex-row">
+    <div class="list-group-item droppable-widget-header">
+        <span class="material-icons w-m">gps_not_fixed</span>
+        <span class="material-icons w-sh" (click)="toggleWidgets($event)">flip</span>
+    </div>
+    <div class="list-group-item droppable-widget" *ngFor="let widget of widgets; let i = index" [attr.data-index]="i" [innerHTML]="widget.getIconHtml()" (mousedown)="setWidget($event, widget)" (touchstart)="setWidget($event, widget)"></div>
+</div>

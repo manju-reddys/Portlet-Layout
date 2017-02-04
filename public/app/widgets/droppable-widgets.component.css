@@ -1,0 +1,38 @@
+.list-group {
+    width: 80px;
+}
+
+.list-group.hide-list>.droppable-widget {
+    visibility: hidden;
+}
+
+.list-group-item {
+    padding: 0.75rem 0.5rem;
+    border-radius: 0;
+    height: 80px;
+    cursor: default;
+}
+
+.list-group-item:first-child {
+    height: auto;
+    padding: 5px;
+}
+
+.list-group-item:first-child span {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.list-group-item:first-child span:first-child {
+    margin-right: 8px;
+    cursor: move;
+}
+
+>>>.droppable-widget> {
+    cursor: move;
+}
+
+>>>.list-group-item>.material-icons {
+    font-size: 60px;
+    color: #848484;
+}
